@@ -4,7 +4,6 @@ import dynamic from 'next/dynamic';
 import { useSearchParams } from 'next/navigation';
 
 // import Link from 'next/link';
-sgfsdfsdf
 const DashboardAppInReact = dynamic(() => import('titan-react/src/App'), { ssr: false });
 
 const DashboardPage = () => {

@@ -4,7 +4,6 @@ import dynamic from 'next/dynamic';
 import { useSearchParams } from 'next/navigation';
 
 // import Link from 'next/link';
-sgfsdfsdf
 
 const DashboardPage = () => {
   const searchParams = useSearchParams();
@@ -15,6 +14,7 @@ const DashboardPage = () => {
   }
   // <BrowserRouter>
   // </BrowserRouter>
+  return null;
 };
 
 export default DashboardPage;
