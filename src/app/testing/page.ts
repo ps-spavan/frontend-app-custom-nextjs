@@ -1,7 +1,6 @@
 'use client';
 
 import dynamic from 'next/dynamic';
-import { useSearchParams } from 'next/navigation';
 
 // import Link from 'next/link';
 
