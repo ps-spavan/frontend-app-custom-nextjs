@@ -1,0 +1,11 @@
+# yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
+language: "en-US"
+early_access: false
+reviews:
+  path_instructions:
+    - path: "src/**/*.ts"
+      instructions: |
+        Review the JavaScript code against the Google JavaScript style guide and point out any mismatches
+        Review for the declared but its value never read
+chat:
+  auto_reply: true
