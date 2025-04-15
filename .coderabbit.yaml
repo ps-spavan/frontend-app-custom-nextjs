@@ -7,5 +7,6 @@ reviews:
       instructions: |
         Review the JavaScript code against the Google JavaScript style guide and point out any mismatches
         Review for the declared but its value never read
+        Review all standard lint error from @eslint/eslintrc
 chat:
   auto_reply: true
