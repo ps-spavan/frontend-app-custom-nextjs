@@ -2,6 +2,8 @@
 
 import dynamic from 'next/dynamic';
 import { useSearchParams } from 'next/navigation';
+import {testing} from 'testing';
+import {Image} from 'next/Image';
 
 // import Link from 'next/link';
 const DashboardAppInReact = dynamic(() => import('titan-react/src/App'), { ssr: false });
