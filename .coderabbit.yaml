@@ -5,9 +5,8 @@ reviews:
   path_instructions:
     - path: "src/**/*.ts"
       instructions: |
-        Review the JavaScript code against the Google JavaScript style guide and point out any mismatches
-        Review for the declared but its value never read
-        Review all standard lint error from @eslint/eslintrc
+        Review the TypeScript code against the Google TypeScript style guide and point out any mismatches.
+        Flag any variables that are declared but never read.
+        Review all standard lint errors from @eslint/eslintrc.
 chat:
   auto_reply: true
-  
