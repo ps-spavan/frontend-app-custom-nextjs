@@ -3,11 +3,9 @@ language: "en-US"
 early_access: false
 reviews:
   path_instructions:
-    - path: "src/**/*.ts"
-      instructions: |
-        Flag any variables that are declared but never read.
     - path: "**/*.ts"
       instructions: |
         Flag any variables that are declared but never read.
+        Review all standard lint errors from @eslint/eslintrc.
 chat:
   auto_reply: true
