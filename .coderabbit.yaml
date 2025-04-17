@@ -5,7 +5,6 @@ reviews:
   path_instructions:
     - path: "**/*.ts"
       instructions: |
-        Flag any variables that are declared but never read.
         Review all standard lint errors from @eslint/eslintrc.
 chat:
   auto_reply: true
